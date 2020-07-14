@@ -16,7 +16,10 @@ while a:
     if choice == "Yes":
         print("Opening the file...")
         txt = open(filename)
-
+        print("Here's your file content:")
+        print(txt.read())
+        txt.close()
+        break
 
 
 
