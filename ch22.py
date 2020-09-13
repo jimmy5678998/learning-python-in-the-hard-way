@@ -158,4 +158,34 @@ Tips for Debugging:
 2. The best way to debug a program is to use print to print out the values of variables at points in the program to see where they go wrong.
 3. Make sure parts of your programs work as you work on them. Do not write massive files of code before you try to run them. Code a little, run a little, fix a little.
 
+Functions about list:
+list[:0]='foo'
+> ['f','o','o']
+list():
+append():
+extend():
+insert():
+remove():
+pop():
+clear():
+index():
+count():
+sort():
+reverse():
+copy():
+.join():
+slicing[0:5]:
+enumerate():
+
+
+class: tell python to make a new type of thing
+object: two meaning: the most basic type of thing, and any instance of some thing.
+instance: What you get when you tell to create a class.
+def: How you define a function inside a class.
+self: Inside the functions in a class, self is a variable for the instance/object being accessed.
+inheritance: The concept that one class can inherit traits from another classes, much like you and your parents.
+composition: The concept that a class can be composed of other classes as parts, much like how a car has wheels.
+attribute: A property classes have that are from composition and are usually variables.
+is-a: A phrase to say that something inherits from another, as in a 'salmon' is-a 'fish'.
+has-a: A phrase to say that something is composed of other things or has a trait, as in 'a salmon has-a mouth.'
 
